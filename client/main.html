@@ -1,6 +1,9 @@
 <body>
     <h1>Welcome to the Online <a href="https://github.com/mjkaufer/JSML">JSML</a> Compiler</h1>
-    
+    {{> fields}}
+</body>
+
+<template name="fields">
 	<div id="center">
 		<textarea id="in"></textarea>
 
@@ -8,4 +11,4 @@
 	</div>
     <br/>
     <button id="compile">Compile!</button>
-</body>
+</template>
