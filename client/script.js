@@ -8,7 +8,10 @@ Template.fields.rendered = function(){
     $('#in').focus();
 }
 
-$('#compile').click(function(){
-    compile();
+Template.fields.events({
+    "click #compile":function(){
+        compile();
+    }
 });
+
 
